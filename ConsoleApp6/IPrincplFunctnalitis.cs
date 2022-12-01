@@ -10,10 +10,6 @@ namespace ConsoleApp6
     {
          void AddOrRemove();
         void TransferAdminRole();
-        void TransferAdminRole(string roleName);    
-         
-
-         
-            
+        void TransferAdminRole(string roleName);       
     }
 }

@@ -6,13 +6,19 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp6
 {
-
-
-    public class NonAcadStfs : IAllStaffsFunctnalitis
+    public class Principl : IPrincplFunctnalitis
     {
-        public string email { get ; set ; }
-        public string name { get; set ; }
+        public bool id { get; set; }
+        public string idColor { get; set; }
+        public string name { get; set; }
+        public bool carSpace { get; set; }
+        public string email { get; set; }
         public string password { get ; set; }
+
+        public void AddOrRemove()
+        {
+            throw new NotImplementedException();
+        }
 
         public void EditAcctDetails()
         {
@@ -30,6 +36,16 @@ namespace ConsoleApp6
         }
 
         public void Register()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void TransferAdminRole()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void TransferAdminRole(string roleName)
         {
             throw new NotImplementedException();
         }

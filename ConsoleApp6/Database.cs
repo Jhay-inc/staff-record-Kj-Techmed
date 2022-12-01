@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp6
 {
-    public class Program
+    public class Database
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
